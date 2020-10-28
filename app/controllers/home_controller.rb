@@ -1,8 +1,8 @@
 class HomeController < ApplicationController
   def index
-    @title = 'デイトラaaaaaaaa'
+    @title = 'デイトラ'
   end
   def about
-    @about = 'デイトラとは？？？？？？？？@@@@@@@'
+    @about = 'デイトラとは？'
   end
 end 
