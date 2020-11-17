@@ -7,6 +7,7 @@ class ArticlesController < ApplicationController
   end
 
   def show
+    @comments = @article.comments
   end
 
   def new
@@ -19,7 +20,7 @@ class ArticlesController < ApplicationController
     redirect_to article_path(@article), notice: '保存できたよ！'
     else
       flash.now[:error] = '保存に失敗したよ'
-      render :new
+      renders:new
     end
   end
 
