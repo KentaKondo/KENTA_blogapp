@@ -1,8 +1,9 @@
+@import './variables'; 
 .btn-primary {
   
   @import './variables'; 
   
-    // background-color: $primary-color;
+    background-color: $primary-color;
     border: none;
     width: 100%;
     text-align: center;
@@ -12,10 +13,10 @@
   }
 .btn-secondary {
   background-color: white;
-  // border: solid 1px $primary-color;
+  border: solid 1px $primary-color;
   width: 100%;
   text-align: center;
-  // color: $primary-color;
+  color: $primary-color;
   padding: 16px 0;
   font-weight: bold;
 }
